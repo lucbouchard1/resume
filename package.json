@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "html-pdf resume.html resume.pdf"    
+    "build": "html-pdf resume.html resume.pdf"
   },
   "author": "Luc Bouchard",
   "license": "ISC",
   "dependencies": {
+    "font-awesome": "^4.7.0",
     "html-pdf": "^2.2.0"
   }
 }
