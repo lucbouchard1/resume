@@ -1,5 +1,5 @@
 html {
-   font-family: 'Roboto';
+   font-family: 'Joan';
    margin: 0;
 }
 
@@ -38,8 +38,8 @@ body {
 }
 
 .lb-header { 
-   height: 50px;
-   border-bottom: 2px solid #64B5F6;
+   height: 40px;
+   border-bottom: 2px solid #505050;
 }
 
 .lb-header-item {
@@ -60,7 +60,7 @@ body {
 .lb-section {
    padding-top: 5px;
    padding-bottom: 3px;
-   border-bottom: 1px solid #64B5F6;   
+   border-bottom: 1px solid #505050;   
 }
 
 .lb-section-content {
@@ -77,6 +77,20 @@ table,tr,th,td {
 
 tr {
    line-height: 10px;
+}
+
+.lb-experience-content {
+   margin-left: 20px;
+}
+
+h3 {
+   position: relative;
+   left: -20px;
+}
+
+.lb-interests {
+   position: relative;
+   top: -2px;
 }
 
 .left {
@@ -100,5 +114,4 @@ ul {
    padding-bottom: 2px;
    padding-left: 3px;
    margin: 0;
-}
 }

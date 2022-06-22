@@ -2,21 +2,17 @@
    <head>
       <link rel="stylesheet" type="text/css" href="./style.css">
       <link rel="stylesheet" type="text/css" href="./node_modules/font-awesome/css/font-awesome.css">
-      <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Joan:300,400,700" rel="stylesheet">
    </head>
    <body>
       <div class="lb-header">
          <div class="lb-header-item left">
             <h1>Luc Bouchard</h1>
-            <div class="lb-header-website">
-               <p>lucbouchard1.github.io</p>
-            </div>  
          </div>
          <div class="lb-header-item right">
             <div class="lb-header-contact">
                <p>314 Hudson St. | Oakland, CA 94618</p>
                <p>(831) 706 - 5195 | lbouchard010@gmail.com</p>           
-               <p><i class="fa fa-github fa-"></i> lucbouchard1</p>
             </div>      
          </div> 
       </div>
@@ -40,7 +36,12 @@
                </tr>
                <tr>
                   <td class="left">MS in <b>Computer Science</b></td>
-                  <td class="right date">Graduate GPA: <b>3.7</b></td>                  
+                  <td class="right date">GPA: <b>3.7</b></td>                  
+               </tr>
+            </table>
+            <table class="lb-interests">
+               <tr>
+                  <td>Interests: Statistics, Data Science, Stochastic Systems, Information Theory, Programming Languages</td>
                </tr>
             </table>
          </div>
@@ -57,30 +58,40 @@
                   <td>Python</td>
                   <td>Java</td>
                   <td>Bash</td>
+                  <td>SQL</td>
+                  <td>HTML</td>
+                  <td>CSS</td>
                   <td>MatLab</td>
                   <td>Haskell</td>
                </tr>
+            </table>
+            <table>
                <tr>
                   <th class="left">Web</th>
                   <td>React</td>                                                  
                   <td>GCP</td>
-                  <td>HTML/CSS</td>                                  
-                  <td>SQL</td>
-                  <td>Webpack</td>
+                  <td>AWS</td>
                   <td>Node</td>
+                  <td>Webpack</td>
                   <td>Redux</td>
                   <td>Flask</td>
-                  <td>Express.js</td>                  
+                  <td>Firebase</td>
+                  <td>Express.js</td>
+                  <td>Jinja</td>
                </tr>
+            </table>
+            <table>
                <tr>
                   <th class="left">Other</th>
                   <td>Statistics</td> 
-                  <td>Mathematics</td>                                  
+                  <td>Embedded Systems</td>                                  
                   <td>Data Analysis</td>                
                   <td>Controls</td>                                  
                   <td>Linux</td>
                   <td>U-Boot</td>
                   <td>git</td>
+                  <td>Github</td>
+                  <td>Jira</td>
                   <td>CI/CD</td>
                   <td>Jupyter</td>                                
                </tr>
@@ -88,43 +99,57 @@
          </div>
       </div>
       <div class="lb-section">
-         <h2>Projects</h2>
-         <div class="lb-section-content">
-            <ul>
-               <li><b>PokerTable.app</b> - Built a web-based poker app with my friends during COVID. Based on React, Redux, and GCP.</li>
-               <li><b>JupyterLab Native</b> - Used Electron to create a native version of JupyterLab, a popular data science platform that runs in the browser. Added native UI features using React.</li>               
-               <li><b>CubeSat ADCS</b> - Developed and tested an attitude determination and control system for CubeSats. Implemeted <i>Extended Kalman Filter</i> in C. Wrote testing framework using Python, zmq, Google Protobufs, and Nasa 42.</li>
-               <li><b>MT7688 U-Boot</b> - Added U-Boot bootloader support for MT7688 SoC. Implemented several platform-specific features to improve boot performance of an embedded system.</li>
-               <li><b>PolySat Bootstrap</b> - Refactored CubeSat bootloader to support new memory architecture.</li>
-               <li><b>PPS Device Driver</b> - Wrote Linux kernel module that handles interrupts from a GPS's pulse-per-second line. Used to synchronize system clock.</li>
-            </ul>
-         </div>
-      </div>
-      <div class="lb-section">
          <h2>Experience</h2>
          <div class="lb-section-content">
             <table class="lb-experience-header">
                <tr>
-                  <td><h3>Graduate Research Assistant</h3></td>
-                  <td class="right date">2019 - 2021</td>
+                  <td><h3>SpaceX</h3></td>
+                  <td class="right date">November 2021 - Present</td>
                </tr>
                <tr>
-                  <td><i>Oregon State University</i></td>
+                  <td><i>Firmware Engineer</i></td>
                </tr>
             </table>
             <div class="lb-experience-content">
                <ul>
-                  <li>Developed and implemented algorithms for a novel free space optical communication system.</li>
-                  <li>Characterized system performance in lab and analyzed data in advance of publication.</li>
+                  <li>Parallelized initialization sequence on next-generation Starlink satellite phased array antennas to reduce boot time and increase developer productivity.</li>
+                  <li>Developed software to control Starlink satellite actuators and relay telemetry to the flight computer.</li>
+                  <li>Wrote a low-power demonstration application for an STM32 microcontroller to send GPS location over LoRA.</li>
+                  <li>Worked remotely on a complex project with a large team of engineers.</li>
                </ul>
             </div>
             <table class="lb-experience-header">
                <tr>
-                  <td><h3>Joby Aviation Software Intern</h3></td>
+                  <td><h3>Oregon State University</h3></td>
+                  <td class="right date">September 2019 - June 2021</td>
+               </tr>
+               <tr>
+                  <td><i>Graduate Research Assistant</i></td>
+               </tr>
+            </table>
+            <div class="lb-experience-content">
+               <ul>
+                  <li>Applied statistical algorithms to develop a novel free space optical communication system.</li>
+                  <li>Measured digital transmission metrics like SNR and BER in lab and analyzed data for publication.</li>
+               </ul>
+            </div>
+            <table class="lb-experience-header">
+               <tr>
+                  <td><i>Graduate Teaching Assistant</i></td>
+               </tr>
+            </table>
+            <div class="lb-experience-content">
+               <ul>
+                  <li>Taught and graded introductory courses for online data science MS program.</li>
+               </ul>
+            </div>
+            <table class="lb-experience-header">
+               <tr>
+                  <td><h3>Joby Aviation</h3></td>
                   <td class="right date">Summer 2019</td>
                </tr>
                <tr>
-                  <td><i>Electric Airplane Startup</i></td>
+                  <td><i>Embedded Software Intern</i></td>
                </tr>
             </table>
             <div class="lb-experience-content">
@@ -135,48 +160,50 @@
             </div>
             <table class="lb-experience-header">
                <tr>
-                  <td><h3>Fullpower Technologies Firmware Intern</h3></td>
+                  <td><h3>Fullpower Technologies</h3></td>
                   <td class="right date">Summer 2018</td>
                </tr>
                <tr>
-                  <td><i>IOT Hardware and Software Company</i></td>
+                  <td><i>Embedded Software Intern</i></td>
                </tr>
             </table>
             <div class="lb-experience-content">
                <ul>
                   <li>Extended U-Boot bootloader to improve boot times of a consumer embedded system, the Sleeptracker Monitor.</li>
-                  <li>Met strict deadlines in anticipation of mass manufacturing runs.</li>
-                  <li>Improved boot time translated to large reductions in manufacturing cost.</li>
+                  <li>Implemented several platform-specific features to improve boot performance of an embedded system.</li>
                </ul>
             </div>
             <table class="lb-experience-header">
                <tr>
-                  <td><h3>Project Jupyter Frontend Software Engineer</h3></td>
+                  <td><h3>Project Jupyter</h3></td>
                   <td class="right date">April 2017 - November 2017</td>
                </tr>
                <tr>
-                  <td><i>Open Source Interactive Computing Project</i></td>
+                  <td><i>Frontend Software Engineering Intern</i></td>
                </tr>
             </table>
             <div class="lb-experience-content">
                <ul>
                   <li>Did frontend web development for JupyterLab, an open-source data science platform with millions of users.</li>
+                  <li>Used Electron to create a native version of JupyterLab. Added native UI features using React.</li>
                   <li>Worked directly with design team to create a compelling user experience.</li>
                </ul>
             </div>
             <table class="lb-experience-header">
                <tr>
-                  <td><h3>PolySat Software Team Lead</h3></td>
+                  <td><h3>Cal Poly Satellite Research Lab</h3></td>
                   <td class="right date">September 2015 - June 2019</td>
                </tr>
                <tr>
-                  <td><i>Cal Poly Satellite Research Lab</i></td>
+                  <td><i>Software Team Lead</i></td>
                </tr>
             </table>
             <div class="lb-experience-content">
                <ul>
                   <li>Led developers to create flexible, fault tolerant, and reusable systems software for CubeSats.</li>
                   <li>Worked with multidisciplinary team of engineers to fund, design, and assemble multiple satellites including PolySat's ISX, Exocube 2, DAVE, and LEO.</li>
+                  <li>Developed and tested an attitude determination and control system for CubeSats.</li>
+                  <li>Wrote Linux kernel module to handle interrupts from a GPS's pulse-per-second line and synchronize the clock.</li>
                </ul>
             </div>
          </div>
